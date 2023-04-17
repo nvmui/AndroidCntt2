@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">CNTT2</string>
+    <string name="menu_settings">Settings</string>
+    <string-array name="presidents_array">
+        <item>Dwight D. Eisenhower</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+    </string-array>
+    <string-array name="a_array">
+        <item>Nguyễn Hiên</item>
+        <item>JNguyễn Trãi</item>
+        <item>Trần Phú</item>
+        <item>Nguyễn Phú Trọng</item>
+        <item>Nguyễn Xuân Phúc</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navi">ActivityNavi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ứng dụng học tâp</string>
+    <string name="nav_header_subtitle">muinv@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_gallery">Bộ sưu tập</string>
+    <string name="menu_slideshow">Trình diễn</string>
+    <string name="menu_setting">Cài đặt</string>
+    <string name="menu_exit">Kết thúc</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_sanpham">Sanpham</string>
+    <string name="title_giohang">Giohang</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_bottom">ActivityBottom</string>
+</resources>
