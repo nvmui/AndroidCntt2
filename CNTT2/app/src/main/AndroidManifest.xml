@@ -12,7 +12,7 @@
         android:theme="@style/Theme.CNTT2.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".ActivitySQLite"
+            android:name=".ActivitySQLiteDiem"
             android:exported="false" />
         <activity
             android:name=".ActivityNavi"
@@ -39,7 +39,7 @@
             android:name=".ActivityTinhtong"
             android:exported="false" />
         <activity
-            android:name=".ActivitySQLiteDiem"
+            android:name=".ActivitySQLite"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

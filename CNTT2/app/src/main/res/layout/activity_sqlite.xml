@@ -58,7 +58,7 @@
                 android:id="@+id/btnThem"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Thêm Môn"
+                android:text="Thêm/Cập nhật"
                 android:layout_weight="1"></Button>
             <Button
                 android:id="@+id/btnXoa"
