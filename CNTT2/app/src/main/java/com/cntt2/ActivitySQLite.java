@@ -34,6 +34,12 @@ public class ActivitySQLite extends AppCompatActivity {
         setContentView(R.layout.activity_sqlite);
         AnhXa();
         initData();
+        btnXoa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                xoaText();
+            }
+        });
         btnThem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,6 +49,7 @@ public class ActivitySQLite extends AppCompatActivity {
                     updateMon();
                 }
                 LoadData();
+                xoaText();
             }
         });
         adapter = new ArrayAdapter<MonHoc>(this, 0, lsmonhoc) {
@@ -80,6 +87,12 @@ public class ActivitySQLite extends AppCompatActivity {
         LoadData();
     }
 
+    private void xoaText() {
+        tenMon.setText("");
+        sotiet.setText("");
+        btnThem.setText("Thêm");
+    }
+
     private void updateMon() {
         String tenm = tenMon.getText().toString();
         int stiet = Integer.parseInt(sotiet.getText().toString());
@@ -92,6 +105,7 @@ public class ActivitySQLite extends AppCompatActivity {
         tenMon.setText(m.getTenmon());
         sotiet.setText(m.getSotiet() + "");
         idUpdate = m.getId();
+        btnThem.setText("Cập Nhật");
     }
 
     private void deleteMon(int position) {
